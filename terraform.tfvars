@@ -1,0 +1,3 @@
+# Your AWS region for SageMaker
+# Should match your DEFAULT_AWS_REGION from .env
+aws_region = "us-east-1"
