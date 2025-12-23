@@ -66,7 +66,7 @@ resource "aws_sagemaker_endpoint_configuration" "serverless_config" {
     
     serverless_config {
       memory_size_in_mb = 3072
-      max_concurrency   = 2  # Reduced from 10 to avoid quota limit
+      max_concurrency   = 2  
     }
   }
 }
