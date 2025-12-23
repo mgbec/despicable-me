@@ -8,8 +8,7 @@ terraform {
     }
   }
   
-  # Using local backend - state will be stored in terraform.tfstate in this directory
-  # This is automatically gitignored for security
+
 }
 
 provider "aws" {
