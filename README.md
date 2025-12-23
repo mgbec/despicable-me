@@ -12,4 +12,5 @@ Contains helpers and tests for ingesting documents into S3 Vectors.
   - `INDEX_NAME` — name of the S3 Vectors index (defaults to `despme-index`)
  
 uv run ingest_from_file.py data/despicable_me_main_characters.json
+
 python3 ingest_from_file.py data/despicable_me_main_characters.json
