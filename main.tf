@@ -8,7 +8,8 @@ terraform {
     }
   }
   
-
+  # Using local backend - state will be stored in terraform.tfstate in this directory
+  # This is automatically gitignored for security
 }
 
 provider "aws" {
@@ -65,8 +66,8 @@ resource "aws_sagemaker_endpoint_configuration" "serverless_config" {
     model_name = aws_sagemaker_model.embedding_model.name
     
     serverless_config {
-      memory_size_in_mb = 3072
-      max_concurrency   = 2  
+      memory_size_in_mb = 4096  
+      max_concurrency   = 2     
     }
   }
 }
