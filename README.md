@@ -1,8 +1,8 @@
-# 🍌 Despicable Me Semantic Search Pipeline (DESPME)
+# Despicable Me Semantic Search Pipeline (DESPME)
 
 A production-ready AI-powered semantic search system built on AWS, featuring BGE-M3 embeddings and S3 Vectors for cost-effective vector storage. This project demonstrates enterprise-grade document ingestion and semantic search capabilities using the Despicable Me universe as a knowledge base.
 
-## 🎯 Project Overview
+## Project Overview
 
 **DESPME** is a serverless semantic search pipeline that:
 - Ingests documents via HTTP API
