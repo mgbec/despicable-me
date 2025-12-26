@@ -247,4 +247,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **BGE-M3 Model**: Beijing Academy of Artificial Intelligence
 - **AWS S3 Vectors**: Cost-effective vector database solution
 - **Despicable Me Universe**: Universal Pictures and Illumination Entertainment
-- **Course Inspiration**: "AI in Production" by Ed Donner
+- **Course Inspiration**: "Generative and Agentic AI in Production" by Ed Donner https://www.udemy.com/course/generative-and-agentic-ai-in-production
