@@ -88,15 +88,7 @@ The system contains **15 documents** about the Despicable Me universe:
 terraform init
 terraform apply
 ```
-
-### 2. Deploy Ingestion Pipeline
-
-# Edit terraform.tfvars with your configuration
-terraform init
-terraform apply
-```
-
-### 3. Test the Pipeline
+### Test the Pipeline
 
 cd bngest
 uv run test_despicable_me_docs.py    # Ingest sample documents
@@ -228,23 +220,6 @@ INDEX_NAME=despme-index
 # API Gateway
 DESPME_API_ENDPOINT=https://your-api-gateway-url/prod/ingest
 DESPME_API_KEY=your-api-key-here
-```
-
-### Terraform Variables
-
-Each terraform directory requires a `terraform.tfvars` file:
-
-**2_sagemaker/terraform.tfvars**:
-```hcl
-aws_region = "us-east-1"
-embedding_model_name = "BAAI/bge-m3"
-```
-
-**3_ingestion/terraform.tfvars**:
-```hcl
-aws_region = "us-east-1"
-sagemaker_endpoint_name = "despme--embedding-endpoint"
-index_name = "despme-index"
 ```
 
 ## 🚧 Future Enhancements
