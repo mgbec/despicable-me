@@ -12,5 +12,5 @@ variable "sagemaker_image_uri" {
 variable "embedding_model_name" {
   description = "Name of the HuggingFace model to use"
   type        = string
-  default     = "sentence-transformers/all-MiniLM-L6-v2"
+  default     = "BAAI/bge-m3"  
 }
